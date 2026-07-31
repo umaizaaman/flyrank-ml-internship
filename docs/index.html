@@ -8,10 +8,18 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 40px;
+            max-width: 900px;
         }
-        h1, h2 {
+
+        h1 {
+            color: #222;
+            text-align: center;
+        }
+
+        h2 {
             color: #222;
         }
+
         .section {
             margin-bottom: 30px;
         }
@@ -33,20 +41,21 @@ This work supports decision-making and does not claim causal impact on search en
 </p>
 </div>
 
-
 <div class="section">
 <h2>1. Research Question</h2>
+
 <p>
 Which search performance signals can help identify content pages with potential visibility improvement opportunities?
 </p>
+
 <p>
 The goal is to support content review decisions using transparent and measurable search signals.
 </p>
 </div>
 
-
 <div class="section">
 <h2>2. Data</h2>
+
 <p>
 This project uses the FlyRank internship dataset from the search intelligence warehouse.
 The analysis uses search performance data containing content-level observations and metrics such as impressions, clicks, and average position.
@@ -57,36 +66,40 @@ Excluded information includes private identifiers and sensitive fields that are 
 </p>
 </div>
 
-
 <div class="section">
 <h2>3. Methodology</h2>
+
 <p>
-The analysis follows a transparent signal investigation approach.
-The main signals examined include search impressions, clicks, and average search position.
-Charts and summary tables were created to observe relationships between these signals.
+This study follows a transparent signal-based analysis approach using the FlyRank internship search dataset.
+The analysis focuses on key search performance signals, including impressions, clicks, and average search position.
+Data exploration, descriptive statistics, and correlation analysis were performed to understand relationships between these signals.
+Summary tables and visual analysis were used to identify observable patterns and compare content performance across pages.
 </p>
 
 <p>
-The analysis avoids future information and focuses only on observed historical data.
+The analysis is based entirely on historical observations and avoids future information or causal assumptions.
+The findings are intended to support data-informed decision-making rather than predict future search rankings.
 </p>
 </div>
-
 
 <div class="section">
 <h2>4. Results</h2>
+
 <p>
-The analysis identified patterns between search visibility signals and content performance.
-Pages with measurable impressions and ranking visibility can represent opportunities for further investigation.
+The analysis revealed meaningful relationships between search visibility signals and content performance.
+Pages with higher impressions generally showed greater opportunities for user engagement, while higher visibility did not always correspond to higher click performance.
+Differences between impressions, clicks, and average search position highlighted pages that may benefit from further content review and optimization.
 </p>
 
 <p>
-The findings are directional insights and should be validated with additional experiments before making final decisions.
+These findings provide directional insights for prioritizing optimization efforts.
+However, the observed patterns should be validated through additional experiments before making final business decisions.
 </p>
 </div>
 
-
 <div class="section">
 <h2>5. Limitations</h2>
+
 <p>
 This analysis cannot prove that changing content will directly improve rankings or traffic.
 Search performance can be influenced by many external factors.
@@ -94,37 +107,46 @@ The results should be treated as decision-support insights rather than guarantee
 </p>
 </div>
 
-
 <div class="section">
 <h2>6. Ranked Recommendations</h2>
+
 <p>
 Based on observed search signals, pages with meaningful visibility but improvement opportunities should be prioritized for review.
 Recommendations include reviewing content quality, search intent alignment, and optimization opportunities.
 </p>
 </div>
 
-
 <div class="section">
 <h2>7. Reproducibility</h2>
+
 <p>
 The analysis notebook and supporting files are available in the project repository.
 All results were generated using documented analysis steps.
 </p>
 </div>
 
+<div class="section">
+<h2>8. Conclusion</h2>
+
+<p>
+This research demonstrates how search performance signals can be used to support content optimization decisions through a transparent and data-driven approach.
+By analyzing impressions, clicks, and average search position, the study identified observable patterns that can help prioritize pages for further review.
+While the findings do not establish causal relationships, they provide practical decision-support insights and a reproducible framework for future search performance analysis.
+</p>
+</div>
 
 <div class="section">
-<h2>8. Acknowledgments & Data Credit</h2>
+<h2>9. Acknowledgments & Data Credit</h2>
+
 <p>
 Built on the FlyRank ML Internship dataset.
 </p>
 
 <p>
 Data source:
-<a href="https://flyrank.ai">FlyRank</a>
+<a href="https://flyrank.ai" target="_blank">FlyRank</a>
 </p>
 </div>
-
 
 </body>
 </html>
